@@ -25,7 +25,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Controller
 public class MainController {
 	
-	
+	//index
 	@RequestMapping("/")
 	public String viewPage() {
 		return "index";
