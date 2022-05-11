@@ -1,34 +1,37 @@
 package com.example.controller;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.InputStreamResource;
-import org.springframework.core.io.Resource;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.multipart.MultipartFile;
+
+import com.example.dao.DogDAO;
+import com.example.dao.JpaRepository;
+import com.example.domain.DogKindVO;
 
 
 @Controller
+@RequestMapping("/include")
 public class MainController {
+	
+	@Autowired
+	private DogDAO dao;
+	
+	@Autowired
+	private JpaRepository jpa;
+	
+	
 	
 	//index
 	@RequestMapping("/")
 	public String viewPage() {
 		return "index";
+	}
+	
+	@RequestMapping("/getDog")
+	public void getDog(Model m) {
+		m.addAttribute("getDog", dao.getDog(new DogKindVO()));
+		//m.addAttribute("getDog", jpa.findById("골든 리트리버 (GOLDEN RETRIEVER)").get());
 	}
 	
 	

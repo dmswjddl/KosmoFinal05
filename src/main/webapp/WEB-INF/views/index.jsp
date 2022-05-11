@@ -9,6 +9,7 @@
 <body>
 
 <a href='include/home'>메인페이지</a>
+<a href='include/getDog'>jpa</a>
 
 </body>
 </html>
