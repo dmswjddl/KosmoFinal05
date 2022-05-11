@@ -6,6 +6,5 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class MainController2 {
 	
-	
-	
+//fdflk
 }
