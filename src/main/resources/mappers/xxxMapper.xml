@@ -5,10 +5,7 @@
 <!-- namespacerk DAO의 인터페이스명과 동일 -->
 
 <mapper namespace="com.example.dao.DogDAO">
-	<select id="getDog" parameterType="DogKindVO" resultType="DogKindVO">
-		select count(dog_kind) count
-		from dog_kind
-	</select>
+	
 	
 	
 </mapper>
