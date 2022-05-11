@@ -8,7 +8,10 @@
 </head>
 <body>
 
-<a href='include/home'>메인페이지</a>
+<a href='include/Footer'>하단페이지</a>
+<a href='include/Header'>상단페이지</a>
+<a href='include/login'>로그인페이지</a>
+<a href='include/Main'>메인페이지</a>
 
 </body>
 </html>
