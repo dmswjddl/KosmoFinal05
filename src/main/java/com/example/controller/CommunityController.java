@@ -4,14 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/include/community")
+@RequestMapping("/include")
 public class CommunityController {
 
-	@RequestMapping("/daily")
+	@RequestMapping("/community/daily")
 	public void daily() {
 	}
 	
-	@RequestMapping("/dailyDetail")
+	@RequestMapping("/community/dailyDetail")
 	public void dailyDetail() {
 
 	}
