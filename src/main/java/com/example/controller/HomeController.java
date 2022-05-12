@@ -23,4 +23,8 @@ public class HomeController {
 	public void MainPage() {
 	}
 	
+	@RequestMapping("Agency")
+	public void Agencypage() {
+		
+	}
 }
