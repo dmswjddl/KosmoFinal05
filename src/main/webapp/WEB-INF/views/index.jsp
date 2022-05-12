@@ -19,7 +19,7 @@
 <a href='include/getDog'>test</a><br/><br/>
 <a href='include/community/daily'>일상공유페이지</a><br/><br/>
 <a href='include/community/dailyDetail'>일상공유상세페이지</a><br/><br/>
-<a href='include/Agency'>정보기관페이지</a><br/><br/>
+<a href='include/agency'>정보기관페이지</a><br/><br/>
 
 </body>
 </html>
