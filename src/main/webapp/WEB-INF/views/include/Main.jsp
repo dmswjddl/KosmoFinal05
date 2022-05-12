@@ -14,20 +14,20 @@
     <link rel="stylesheet" id="open-sans-css"
           href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i">
 
-    <link rel="stylesheet" id="animate-css" href="css/animate.min.css?ver=3.7.2" type="text/css" media="all">
-    <link rel="stylesheet" id="font-awesome-css" href="css/font-awesome.min.css?ver=5.15.4" type="text/css"
+    <link rel="stylesheet" id="animate-css" href="/css/animate.min.css?ver=3.7.2" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="/css/font-awesome.min.css?ver=5.15.4" type="text/css"
           media="all">
-    <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.min.css?ver=4.6.0" type="text/css" media="all">
-    <link rel="stylesheet" id="smartmenus-bootstrap-css" href="css/smartmenus-bootstrap.min.css?ver=1.1.1"
+    <link rel="stylesheet" id="bootstrap-css" href="/css/bootstrap.min.css?ver=4.6.0" type="text/css" media="all">
+    <link rel="stylesheet" id="smartmenus-bootstrap-css" href="/css/smartmenus-bootstrap.min.css?ver=1.1.1"
           type="text/css" media="all">
-    <link rel="stylesheet" id="swiper-css" href="css/swiper.min.css?ver=4.5.3" type="text/css" media="all">
-    <link rel="stylesheet" id="magnific-popup-css" href="css/magnific-popup.min.css?ver=1.1.0" type="text/css"
+    <link rel="stylesheet" id="swiper-css" href="/css/swiper.min.css?ver=4.5.3" type="text/css" media="all">
+    <link rel="stylesheet" id="magnific-popup-css" href="/css/magnific-popup.min.css?ver=1.1.0" type="text/css"
           media="all">
-    <link rel="stylesheet" id="lana-pet-icon-css" href="css/lana-pet-icon.min.css?ver=1.0.0" type="text/css"
+    <link rel="stylesheet" id="lana-pet-icon-css" href="/css/lana-pet-icon.min.css?ver=1.0.0" type="text/css"
           media="all">
-    <link rel="stylesheet" id="lana-pet-theme-css" href="css/lana-pet-theme.min.css?ver=1.0.0" type="text/css"
+    <link rel="stylesheet" id="lana-pet-theme-css" href="/css/lana-pet-theme.min.css?ver=1.0.0" type="text/css"
           media="all">
-    <link rel="stylesheet" id="lana-pet-print-css" href="css/lana-pet-print.min.css?ver=1.0.0" type="text/css"
+    <link rel="stylesheet" id="lana-pet-print-css" href="/css/lana-pet-print.min.css?ver=1.0.0" type="text/css"
           media="print">
 
     <link rel="stylesheet" href="css/mainPage.css" type="text/css">
@@ -59,13 +59,13 @@
                              data-scroll-animate="fadeIn">
                             <div class="card-body">
                                 <div class="media">
-                                    <img src="pictures/placeholder/100x100.svg"
+                                    <img src="/pictures/placeholder/100x100.svg"
                                          class="img-fluid rounded-circle" alt="Pet">
                                     <div class="media-body align-self-center">
                                      <h5 class="post-title card-title">회원 닉네임</h5>  
                                     </div>
                                 </div>
-                                <img src="img/testimg.jpg" style="width: 240px; height: 240px;"/>
+                                <img src="/img/testimg.jpg" style="width: 240px; height: 240px;"/>
                                 <p class="post-text card-text">
                                 	우리갱얼지 귀엽죵
                                 </p>
@@ -92,9 +92,9 @@
         </div>
         <div class="row text-center my-5 mfp-gallery">
             <div class="col-12 col-sm-6 col-lg-4 my-3">
-                <a href="pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
+                <a href="/pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
                    data-scroll-animate="comeInRight">
-                    <img src="pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
+                    <img src="/pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
                     <div class="container overlay-content">
                         <div class="row h-100">
                             <div class="col-12 align-self-end p-5">
@@ -110,7 +110,7 @@
             <div class="col-12 col-sm-6 col-lg-4 my-3">
                 <a href="pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
                    data-scroll-animate="comeInUp">
-                    <img src="pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
+                    <img src="/pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
                     <div class="container overlay-content">
                         <div class="row h-100">
                             <div class="col-12 align-self-end p-5">
@@ -124,9 +124,9 @@
                 </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 my-3">
-                <a href="pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
+                <a href="/pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
                    data-scroll-animate="comeInLeft">
-                    <img src="pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
+                    <img src="/pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
                     <div class="container overlay-content">
                         <div class="row h-100">
                             <div class="col-12 align-self-end p-5">
@@ -140,9 +140,9 @@
                 </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 my-3">
-                <a href="pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
+                <a href="/pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
                    data-scroll-animate="comeInRight">
-                    <img src="pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
+                    <img src="/pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
                     <div class="container overlay-content">
                         <div class="row h-100">
                             <div class="col-12 align-self-end p-5">
@@ -156,9 +156,9 @@
                 </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 my-3">
-                <a href="pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
+                <a href="/pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
                    data-scroll-animate="comeInDown">
-                    <img src="pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
+                    <img src="/pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
                     <div class="container overlay-content">
                         <div class="row h-100">
                             <div class="col-12 align-self-end p-5">
@@ -172,9 +172,9 @@
                 </a>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 my-3">
-                <a href="pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
+                <a href="/pictures/placeholder/1920x1080.svg" class="lana-img-overlay image-link text-white"
                    data-scroll-animate="comeInLeft">
-                    <img src="pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
+                    <img src="/pictures/placeholder/640x430.svg" class="mfp-image img-fluid" alt="Pet">
                     <div class="container overlay-content">
                         <div class="row h-100">
                             <div class="col-12 align-self-end p-5">
@@ -212,7 +212,7 @@
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="lana_member type-lana_member card member-card bg-transparent">
                         <div class="card-body">
-                            <img src="pictures/placeholder/250x250.svg"
+                            <img src="/pictures/placeholder/250x250.svg"
                                  class="card-img-top img-fluid rounded-circle" alt="Team Member"
                                  data-scroll-animate="zoomIn">
                             <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
@@ -242,7 +242,7 @@
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="lana_member type-lana_member card member-card bg-transparent">
                         <div class="card-body">
-                            <img src="pictures/placeholder/250x250.svg"
+                            <img src="/pictures/placeholder/250x250.svg"
                                  class="card-img-top img-fluid rounded-circle" alt="Team Member"
                                  data-scroll-animate="zoomIn">
                             <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
@@ -272,7 +272,7 @@
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="lana_member type-lana_member card member-card bg-transparent">
                         <div class="card-body">
-                            <img src="pictures/placeholder/250x250.svg"
+                            <img src="/pictures/placeholder/250x250.svg"
                                  class="card-img-top img-fluid rounded-circle" alt="Team Member"
                                  data-scroll-animate="zoomIn">
                             <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
@@ -336,7 +336,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <div class="media">
-                                            <img src="pictures/placeholder/32x32.svg"
+                                            <img src="/pictures/placeholder/32x32.svg"
                                                  class="img-fluid rounded-circle" alt="Author">
                                             <div class="media-body align-self-center">
                                                 <div class="author-meta">By: Anastasia</div>
@@ -361,7 +361,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <div class="media">
-                                            <img src="pictures/placeholder/32x32.svg"
+                                            <img src="/pictures/placeholder/32x32.svg"
                                                  class="img-fluid rounded-circle" alt="Author">
                                             <div class="media-body align-self-center">
                                                 <div class="author-meta">By: Lana</div>
@@ -387,7 +387,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <div class="media">
-                                            <img src="pictures/placeholder/32x32.svg"
+                                            <img src="/pictures/placeholder/32x32.svg"
                                                  class="img-fluid rounded-circle" alt="Author">
                                             <div class="media-body align-self-center">
                                                 <div class="author-meta">By: Anna</div>
@@ -412,7 +412,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <div class="media">
-                                            <img src="pictures/placeholder/32x32.svg"
+                                            <img src="/pictures/placeholder/32x32.svg"
                                                  class="img-fluid rounded-circle" alt="Author">
                                             <div class="media-body align-self-center">
                                                 <div class="author-meta">By: Svetlana</div>
@@ -437,7 +437,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <div class="media">
-                                            <img src="pictures/placeholder/32x32.svg"
+                                            <img src="/pictures/placeholder/32x32.svg"
                                                  class="img-fluid rounded-circle" alt="Author">
                                             <div class="media-body align-self-center">
                                                 <div class="author-meta">By: Nastya</div>
@@ -463,7 +463,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <div class="media">
-                                            <img src="pictures/placeholder/32x32.svg"
+                                            <img src="/pictures/placeholder/32x32.svg"
                                                  class="img-fluid rounded-circle" alt="Author">
                                             <div class="media-body align-self-center">
                                                 <div class="author-meta">By: Katya</div>
@@ -487,15 +487,15 @@
     </div>
 </main>
 
-<script type="text/javascript" src="js/jquery.min.js?ver=3.6.0"></script>
-<script type="text/javascript" src="js/popper.min.js?ver=1.16.1"></script>
-<script type="text/javascript" src="js/bootstrap.min.js?ver=4.6.0"></script>
-<script type="text/javascript" src="js/smartmenus.min.js?ver=1.1.1"></script>
-<script type="text/javascript" src="js/smartmenus-bootstrap.min.js?ver=1.1.1"></script>
-<script type="text/javascript" src="js/swiper.min.js?ver=4.5.3"></script>
-<script type="text/javascript" src="js/scrollmagic.min.js?ver=2.0.8"></script>
-<script type="text/javascript" src="js/magnific-popup.min.js?ver=1.1.0"></script>
-<script type="text/javascript" src="js/custom-theme.js?ver=1.0.0"></script>
+<script type="text/javascript" src="/js/jquery.min.js?ver=3.6.0"></script>
+<script type="text/javascript" src="/js/popper.min.js?ver=1.16.1"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js?ver=4.6.0"></script>
+<script type="text/javascript" src="/js/smartmenus.min.js?ver=1.1.1"></script>
+<script type="text/javascript" src="/js/smartmenus-bootstrap.min.js?ver=1.1.1"></script>
+<script type="text/javascript" src="/js/swiper.min.js?ver=4.5.3"></script>
+<script type="text/javascript" src="/js/scrollmagic.min.js?ver=2.0.8"></script>
+<script type="text/javascript" src="/js/magnific-popup.min.js?ver=1.1.0"></script>
+<script type="text/javascript" src="/js/custom-theme.js?ver=1.0.0"></script>
 
 </body>
 </html>
