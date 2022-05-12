@@ -10,6 +10,7 @@
 		from dog_kind
 		
 	</select>
+
 	
 	<select id="getRoomNum" parameterType="Room" resultType="DogKindVO">
 		select count(*) count
@@ -26,6 +27,7 @@
 		delete from chating_room
 		where room_num=#{room_num} and room_member=#{room_member}
 	</delete>
+
 	
 	
 </mapper>
