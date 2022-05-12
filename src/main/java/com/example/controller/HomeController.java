@@ -7,8 +7,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/include")
 public class HomeController {
 
-	@RequestMapping("/home")
-	public void HomePage() {
-		
+	@RequestMapping("Header")
+	public void HeaderPage() {
 	}
+	
+	@RequestMapping("/Footer")
+	public void FooterPage() {
+	}
+	
+	@RequestMapping("login")
+	public void loginPage() {
+	}
+	
+	@RequestMapping("/Main")
+	public void MainPage() {
+	}
+	
 }
