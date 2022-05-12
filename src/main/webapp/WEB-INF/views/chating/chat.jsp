@@ -108,25 +108,25 @@
 					
 					
 					$.ajax({
-						url:'/api/getRoomNumApi',
+						url:'/api/members',
 			            type:'get',
-			            data:{roomNumber:$("#roomNumber").val()},
+			            data:{roomName:$("#room").text(),id:'1'},
 			            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
 			            success:function(data){
 			            	
-			                $('#room').text( $("#userName").val()+'(' + data + ')')
+			                $('#room').text( $("#roomName").val()+'(' + data + ')')
 			            }
 					})
 				}else if(d.type == "goout"){
 					$("#chating").append("<p class='others'>" + d.msg + "</p>");	
 					$.ajax({
-						url:'/api/getRoomNumApi',
+						url:'/api/members',
 			            type:'get',
-			            data:{roomNumber:$("#roomNumber").val()},
+			            data:{roomName:$("#room").text(),id:'-1'},
 			            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
 			            success:function(data){
 			            	
-			                $('#room').text( $("#userName").val()+'(' + data + ')')
+			                $('#room').text( $("#roomName").val()+'(' + data + ')')
 			            }
 					})
 				}else{
@@ -159,7 +159,7 @@
 				roomNumber: $("#roomNumber").val(),
 				sessionId : $("#sessionId").val(),
 				userName : $("#userName").val(),
-				msg : $("#userName").val()+'님 나가습니다.'
+				msg : $("#userName").val()+'님 나갔습니다.'
 			}
 		ws.send(JSON.stringify(option))
 		
@@ -219,8 +219,9 @@
 <body>
 	<div id="container" class="container">
 		<input type="hidden" id="members" value="${getRoomNum.count }">
-		<h1 id="room">${roomName}(${getRoomNum.count })</h1>
+		<h1 id="room">${roomName}(${getRoomNum.count-1 })</h1>
 		<input type="hidden" id="sessionId" value="">
+		<input type="hidden" id="roomName" value="${roomName}">
 		<input type="hidden" id="roomNumber" value="${roomNumber}"> 
 		<input type="hidden" name="userName" id="userName" value="${id}" />
 		<div id="chating" class="chating">

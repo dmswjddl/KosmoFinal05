@@ -16,9 +16,14 @@ public class ApiController {
 	@Autowired
 	private DogDAO dao;
 	
-	@RequestMapping(value = "/getRoomNumApi",produces = "application/text; charset=UTF-8")
-	public String getRoomNumApi(Room room) {
+	@RequestMapping(value = "/members",produces = "application/text; charset=UTF-8")
+	public String members(Room room) {
+		System.out.println(room.getRoomName());
+		if(room.getId().equals("1")) {
+			return String.valueOf(Integer.parseInt(Character.toString(room.getRoomName().strip().charAt(4)) )+1);
+		}
 		
-		return dao.getRoomNum(room).getCount();
+		return String.valueOf(Integer.parseInt(Character.toString(room.getRoomName().strip().charAt(4)) )-1);
+		
 	}
 }
