@@ -11,5 +11,21 @@
 		
 	</select>
 	
+	<select id="getRoomNum" parameterType="Room" resultType="DogKindVO">
+		select count(*) count
+		from chating_room
+		where room_num = #{roomNumber}
+	</select>
+	
+	<insert id="insertRoomMember" parameterType="ChatingRoomVO" >
+		insert into chating_room(room_num,room_name,room_member)
+		values(#{room_num},#{room_name},#{room_member})
+	</insert>
+	
+	<delete id="deleteRoomMember" parameterType="ChatingRoomVO">
+		delete from chating_room
+		where room_num=#{room_num} and room_member=#{room_member}
+	</delete>
+	
 	
 </mapper>
