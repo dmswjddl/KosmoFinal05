@@ -19,7 +19,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+            <a href="/admin/indexAdmin" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard              
@@ -37,7 +37,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/charts/chartsjs" class="nav-link">
+                <a href="/admin/pages/charts/chartsjs" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>ChartJS</p>
                 </a>
@@ -64,7 +64,7 @@
           </li>
           
         <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="/admin/adminMember" class="nav-link">
               <i class="nav-icon fa-solid fa-user"></i>
               <p>
                 회원관리

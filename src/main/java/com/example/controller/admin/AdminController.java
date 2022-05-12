@@ -16,5 +16,10 @@ public class AdminController {
 	public void charts() {
 		
 	}	
+	
+	@RequestMapping("/adminMember")
+	public void memberPage() {
+		
+	}
 
 }

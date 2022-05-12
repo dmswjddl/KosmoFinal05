@@ -213,8 +213,6 @@
 <script src="/admin/plugins/chart.js/Chart.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/admin/dist/js/adminlte.min.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="/admin/dist/js/demo.js"></script>
 <!-- Page specific script -->
 <script>
   $(function () {
