@@ -8,12 +8,17 @@
 </head>
 <body>
 
-<a href='include/Footer'>하단페이지</a>
-<a href='include/Header'>상단페이지</a>
-<a href='include/login'>로그인페이지</a>
-<a href='include/Main'>메인페이지</a>
-<a href='include/getDog'>test</a>
-<a href='include/Agency'>정보기관페이지</a>
+
+
+
+<a href='admin/indexAdmin'>admin페이지</a>
+<a href='include/Footer'>하단페이지</a><br/><br/>
+<a href='include/Header'>상단페이지</a><br/><br/>
+<a href='include/login'>로그인페이지</a><br/><br/>
+<a href='include/Main'>메인페이지</a><br/><br/>
+<a href='include/getDog'>test</a><br/><br/>
+<a href='include/community/daily'>일상공유페이지</a><br/><br/>
+<a href='include/Agency'>정보기관페이지</a><br/><br/>
 
 
 </body>
