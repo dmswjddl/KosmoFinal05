@@ -31,163 +31,219 @@
           media="print">
 
     <link rel="stylesheet" href="css/mainPage.css" type="text/css">
+    
+    
+    <style type="text/css">
+    
+    .emptyHeart {
+    	width:20px;
+    }
+    
+    .comment {
+    	width:20px;
+    }
+    
+    .siren {
+    	width:20px;
+    }
+    
+    </style>
 	</head>
-	<body class="archive grid-3-columns">
-	
-	<%@include file="../Header.jsp" %>
-	
-	<main class="main container">
-	    <div class="row">
-	        <div class="col-12">
-	            <div class="blog-grid-posts">
-	                <div class="row">
-	                <!-- ------------------------------------------------------------------------------------------------- -->
-	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
-	                        <div id="post-1" class="post type-post post-1 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
-	                            <div class="card-body">
-	                                <ul class="post-meta">
-	                                    <li><a href="single.html">May 24, 2017</a></li>
-	                                    <li><a href="#">News</a></li>
-	                                </ul>
-	                                <h5 class="post-title card-title"><a href="single.html">Post #1</a></h5>
-	                                <p class="post-text card-text">
-	                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	                                </p>
-	                            </div>
-	                            <div class="card-footer">
-	                                <a href="single.html" class="more-link card-link">
-	                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
-	                                </a>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
-	                        <div id="post-2" class="post type-post post-2 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
-	                            <div class="card-body">
-	                                <ul class="post-meta">
-	                                    <li><a href="single.html">May 24, 2017</a></li>
-	                                    <li><a href="#">News</a></li>
-	                                </ul>
-	                                <h5 class="post-title card-title"><a href="single.html">Post #2</a></h5>
-	                                <p class="post-text card-text">
-	                                    Donec sit amet ultricies dui, et posuere lacus.
-	                                </p>
-	                            </div>
-	                            <div class="card-footer">
-	                                <a href="single.html" class="more-link card-link">
-	                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
-	                                </a>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
-	                        <div id="post-3" class="post type-post post-3 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
-	                            <div class="card-body">
-	                                <ul class="post-meta">
-	                                    <li><a href="single.html">May 24, 2017</a></li>
-	                                    <li><a href="#">News</a></li>
-	                                </ul>
-	                                <h5 class="post-title card-title"><a href="single.html">Post #3</a></h5>
-	                                <p class="post-text card-text">
-	                                    Vestibulum accumsan justo eget justo rhoncus convallis.
-	                                </p>
-	                            </div>
-	                            <div class="card-footer">
-	                                <a href="single.html" class="more-link card-link">
-	                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
-	                                </a>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
-	                        <div id="post-4" class="post type-post post-4 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
-	                            <div class="card-body">
-	                                <ul class="post-meta">
-	                                    <li><a href="single.html">May 24, 2017</a></li>
-	                                    <li><a href="#">News</a></li>
-	                                </ul>
-	                                <h5 class="post-title card-title"><a href="single.html">Post #4</a></h5>
-	                                <p class="post-text card-text">
-	                                    Nullam in malesuada turpis. Phasellus eget consectetur odio.
-	                                </p>
-	                            </div>
-	                            <div class="card-footer">
-	                                <a href="single.html" class="more-link card-link">
-	                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
-	                                </a>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
-	                        <div id="post-5" class="post type-post post-5 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
-	                            <div class="card-body">
-	                                <ul class="post-meta">
-	                                    <li><a href="single.html">May 24, 2017</a></li>
-	                                    <li><a href="#">News</a></li>
-	                                </ul>
-	                                <h5 class="post-title card-title"><a href="single.html">Post #5</a></h5>
-	                                <p class="post-text card-text">
-	                                    Donec aliquam ac felis vel fermentum. Proin at vestibulum lacus. Vestibulum ut urna
-	                                    ac eros suscipit vulputate nec et elit.
-	                                </p>
-	                            </div>
-	                            <div class="card-footer">
-	                                <a href="single.html" class="more-link card-link">
-	                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
-	                                </a>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
-	                        <div id="post-6" class="post type-post post-6 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
-	                            <div class="card-body">
-	                                <ul class="post-meta">
-	                                    <li><a href="single.html">May 24, 2017</a></li>
-	                                    <li><a href="#">News</a></li>
-	                                </ul>
-	                                <h5 class="post-title card-title"><a href="single.html">Post #6</a></h5>
-	                                <p class="post-text card-text">
-	                                    Suspendisse porta eget odio eu faucibus. Vestibulum ullamcorper nulla sapien, ac
-	                                    pulvinar elit ultrices quis.
-	                                </p>
-	                            </div>
-	                            <div class="card-footer">
-	                                <a href="single.html" class="more-link card-link">
-	                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
-	                                </a>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	
-	                <nav class="navigation pagination justify-content-between bg-transparent text-uppercase"
-	                     role="navigation">
-	                    <a class="prev disabled" href="#">
-	                        Prev
-	                    </a>
-	                    <div class="nav-links">
-	                        <ul class="page-numbers">
-	                            <li><span aria-current="page" class="page-numbers current">1</span></li>
-	                            <li><a class="page-numbers" href="#">2</a></li>
-	                            <li><span class="page-numbers dots">…</span></li>
-	                            <li><a class="page-numbers" href="#">4</a></li>
-	                        </ul>
-	                    </div>
-	                    <a class="next" href="#">
-	                        Next
-	                    </a>
-	                </nav>
-	            </div>
-	        </div>
-	    </div>
-	</main>
-	
+
+<body class="archive grid-4-columns">
+
+<%@include file="../Header.jsp" %>
+
+<main class="main container">
+    <div class="row">
+        <div class="col-12">
+            <div class="blog-grid-posts">
+                <div class="row">
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-1" class="post type-post post-1 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                </ul>
+	                            <span><img class="siren" src="../../img/siren.png"></span>
+                                <h5 class="post-title card-title"><a href="single.html">Post #1</a></h5>
+                                <p class="post-text card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <span><img class="emptyHeart" src="../../img/emptyHeart.png"></span>
+	                            <span><img class="comment" src="../../img/comment.png"></span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-2" class="post type-post post-2 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                                <h5 class="post-title card-title"><a href="single.html">Post #2</a></h5>
+                                <p class="post-text card-text">
+                                    Donec sit amet ultricies dui, et posuere lacus.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="single.html" class="more-link card-link">
+                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-3" class="post type-post post-3 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                                <h5 class="post-title card-title"><a href="single.html">Post #3</a></h5>
+                                <p class="post-text card-text">
+                                    Vestibulum accumsan justo eget justo rhoncus convallis.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="single.html" class="more-link card-link">
+                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-4" class="post type-post post-4 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                                <h5 class="post-title card-title"><a href="single.html">Post #4</a></h5>
+                                <p class="post-text card-text">
+                                    Nullam in malesuada turpis. Phasellus eget consectetur odio.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="single.html" class="more-link card-link">
+                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-5" class="post type-post post-5 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                                <h5 class="post-title card-title"><a href="single.html">Post #5</a></h5>
+                                <p class="post-text card-text">
+                                    Donec aliquam ac felis vel fermentum. Proin at vestibulum lacus.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="single.html" class="more-link card-link">
+                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-6" class="post type-post post-6 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                                <h5 class="post-title card-title"><a href="single.html">Post #6</a></h5>
+                                <p class="post-text card-text">
+                                    Suspendisse porta eget odio eu faucibus.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="single.html" class="more-link card-link">
+                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-7" class="post type-post post-7 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                                <h5 class="post-title card-title"><a href="single.html">Post #7</a></h5>
+                                <p class="post-text card-text">
+                                    Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="single.html" class="more-link card-link">
+                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-grid-col col-12 col-md-6 col-lg-3">
+                        <div id="post-8" class="post type-post post-8 card post-card post-grid-card h-100">
+                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
+                            <div class="card-body">
+                                <ul class="post-meta">
+                                    <li><a href="single.html">May 24, 2017</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                                <h5 class="post-title card-title"><a href="single.html">Post #8</a></h5>
+                                <p class="post-text card-text">
+                                    Vivamus auctor turpis lacus, sed fringilla ligula gravida et.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="single.html" class="more-link card-link">
+                                    Read More <i class="lana-icon-arrow-right text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="navigation pagination justify-content-between bg-transparent text-uppercase"
+                     role="navigation">
+                    <a class="prev disabled" href="#">
+                        Prev
+                    </a>
+                    <div class="nav-links">
+                        <ul class="page-numbers">
+                            <li><span aria-current="page" class="page-numbers current">1</span></li>
+                            <li><a class="page-numbers" href="#">2</a></li>
+                            <li><span class="page-numbers dots">…</span></li>
+                            <li><a class="page-numbers" href="#">4</a></li>
+                        </ul>
+                    </div>
+                    <a class="next" href="#">
+                        Next
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
 <%@include file="../Footer.jsp" %>
 	
 <script type="text/javascript" src="/js/jquery.min.js?ver=3.6.0"></script>
