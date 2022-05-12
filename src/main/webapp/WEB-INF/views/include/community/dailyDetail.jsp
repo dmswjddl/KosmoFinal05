@@ -31,6 +31,22 @@
           media="print">
 
     <link rel="stylesheet" href="css/mainPage.css" type="text/css">
+    
+    <style type="text/css">
+     #tb1 {
+    	margin: 30px 30px;
+    
+    } 
+    
+     #tb2 {
+    	margin: 30px 30px;
+    	
+    } 
+    
+    </style>
+    
+
+    
 	</head>
 <body class="single single-post">
 
@@ -278,30 +294,26 @@
 
 <main class="main">
     <div id="post-1" class="post type-post post-1 has-post-thumbnail comment-open">
-        <div class="container post-container bg-white col-md-6">
+   
+    	 <!-- 이미지 div -->
+    	 
+        <div class="container post-container bg-white col-md-6" id="tb1">
             <div class="row justify-content-center post-row no-gutters">
                 <div class="col-12 col-sm-11 col-md-10 post-thumbnail-col">
                     <img class="img-fluid post-thumbnail" src="../pictures/placeholder/1110x520.svg" alt="Post">
                 </div>
                 <div class="col-12 col-sm-11 col-md-10 col-lg-8 post-col">
                     <div class="post-content">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id ipsum at augue malesuada
-                            viverra. Integer cursus sem et est lacinia, sit amet tincidunt tortor sollicitudin.
-                        
-                        </p>
-
+                        <p>게시글 내용</p>
                     </div>
-
-
                     <hr/>
-
-
                 </div>
             </div>
         </div>
+       
 
-        <div class="container comments-container bg-white">
+		<!-- 게시글 내용 div -->
+        <div class="container comments-container bg-white" id="tb2">
             <div class="row justify-content-center comments-row no-gutters">
                 <div class="col-12 col-sm-11 col-md-10 col-lg-8">
                     <h6 class="comments-title font-weight-bold">
@@ -315,19 +327,14 @@
                             <div class="media-body">
                                 <div class="d-bock d-md-flex w-100 justify-content-between">
                                     <h5 class="comment-title">
-                                        <a href="#">Commenter</a>
+                                        <a href="#">닉네임</a>
                                     </h5>
                                     <div class="comment-date">
                                         <a href="#">May 24, 2017 at 11:47 am</a>
                                     </div>
                                 </div>
                                 <div class="comment-text">
-                                    <p>
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                        sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                                        turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                                        felis in faucibus.
-                                    </p>
+                                    <p>댓글 내용</p>
                                 </div>
                                 <ul class="comment-meta">
                                     <li>

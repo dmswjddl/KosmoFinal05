@@ -281,9 +281,10 @@
 	        <div class="col-12">
 	            <div class="blog-grid-posts">
 	                <div class="row">
+	                <!-- ------------------------------------------------------------------------------------------------- -->
 	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
 	                        <div id="post-1" class="post type-post post-1 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
+	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
 	                            <div class="card-body">
 	                                <ul class="post-meta">
 	                                    <li><a href="single.html">May 24, 2017</a></li>
@@ -303,7 +304,7 @@
 	                    </div>
 	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
 	                        <div id="post-2" class="post type-post post-2 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
+	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
 	                            <div class="card-body">
 	                                <ul class="post-meta">
 	                                    <li><a href="single.html">May 24, 2017</a></li>
@@ -323,7 +324,7 @@
 	                    </div>
 	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
 	                        <div id="post-3" class="post type-post post-3 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
+	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
 	                            <div class="card-body">
 	                                <ul class="post-meta">
 	                                    <li><a href="single.html">May 24, 2017</a></li>
@@ -343,7 +344,7 @@
 	                    </div>
 	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
 	                        <div id="post-4" class="post type-post post-4 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
+	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
 	                            <div class="card-body">
 	                                <ul class="post-meta">
 	                                    <li><a href="single.html">May 24, 2017</a></li>
@@ -363,7 +364,7 @@
 	                    </div>
 	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
 	                        <div id="post-5" class="post type-post post-5 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
+	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
 	                            <div class="card-body">
 	                                <ul class="post-meta">
 	                                    <li><a href="single.html">May 24, 2017</a></li>
@@ -384,7 +385,7 @@
 	                    </div>
 	                    <div class="blog-grid-col col-12 col-md-6 col-lg-4">
 	                        <div id="post-6" class="post type-post post-6 card post-card post-grid-card h-100">
-	                            <img class="card-img-top img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
+	                            <img class="card-img-top img-fluid" src="../../pictures/placeholder/530x400.svg" alt="Post">
 	                            <div class="card-body">
 	                                <ul class="post-meta">
 	                                    <li><a href="single.html">May 24, 2017</a></li>
