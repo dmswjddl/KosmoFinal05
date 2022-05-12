@@ -13,6 +13,7 @@ public class CommunityController {
 	
 	@RequestMapping("/dailyDetail")
 	public void dailyDetail() {
+
 	}
 	
 	
