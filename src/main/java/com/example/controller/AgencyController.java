@@ -4,11 +4,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/include")
+@RequestMapping("/include/institution")
 public class AgencyController {
 	
 	@RequestMapping("/agency")
 	public void agency() {
+		
+	}
+	
+	@RequestMapping("/agencyDetail")
+	public void agencyDetail() {
 		
 	}
 	
