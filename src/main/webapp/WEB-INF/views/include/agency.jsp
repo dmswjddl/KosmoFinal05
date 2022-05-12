@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>너와 함개</title>
+    
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,13 +33,21 @@
 
     <link rel="stylesheet" href="/css/HeadFootPage.css" type="text/css">
 </head>
+
+
+
+
 <body class="home page page-template-template-lana-editor">
+
+
+
 <header class="header headColor lana-full-bg-image-golden-large-sitting-dog-body-indoor d-flex flex-column"
         id="slider-header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="lana-pet-main-navbar">
         <a class="navbar-brand" href="#">
             <img class="navbar-logo mainLogo mx-auto" src="/img/WithYouLogo.png" alt="Navbar Logo">
         </a>
+     
         <div><img src="/img/WithYouTitle.png" class="mainTitle mx-auto"/></div>
         <div class="toggler-buttons d-flex flex-fill justify-content-end">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lana-navbar"
@@ -181,58 +190,92 @@
                     </nav>
                 </div>
                 
-    <main class="main container">
+                
+
+<main class="main container">
+
+<!--*********** 검색창 화면************************************************************************************-->    
+    
+<div class="row search-row">
+        <div class="col-12 col-md-9 col-lg-8 col-xl-7">
+            <form method="get" class="search-form">
+                <div class="input-group input-group-lg search">
+                    <input type="text" name="s" class="form-control search-input text-light" placeholder="Search"
+                           aria-label="Search" aria-describedby="search-button">
+                    <div class="input-group-append">
+                        <button type="submit" id="search-button" class="btn search-button">
+                            <i class="fa fa-search text-light"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div> 
+    
+
     <div class="row">
         <div class="col-12">
             <div class="search-posts">
-                <!--- ****-->
-                <div class="row search-row">
-                    <div class="col-12 col-md-9 col-lg-8 col-xl-7">
-                        <form method="get" class="search-form">
-                            <div class="input-group input-group-lg search">
-                                <input type="text" name="s" class="form-control search-input text-light" placeholder="Search"
-                                       aria-label="Search" aria-describedby="search-button">
-                                <div class="input-group-append">
-                                    <button type="submit" id="search-button" class="btn search-button">
-                                        <i class="fa fa-search text-light"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!--********정보기관 리스트 출력하기 시작*********************************************-->
-               
 
-
+<!-- *********** 1번째 칸 *****************************************-->                
                 <div id="post-1" class="post type-post search post-1 card post-card">
                     <div class="row">
-                        
                         <div class="col-md-4">
                             <img class="card-img img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
                         </div>
                         <div class="col-md-8">
-                        
-                        <tr>
                             <div class="card-body h-100 d-flex align-items-start flex-column">
-                              
-                               <tr class="post-title card-title"><a href="single.html">상호명</a></tr>
-                               <tr>
-                               <td>주소</td>
-                               </tr>
-                               <tr>
-                               <td>전화번호</td>
-                               </tr>
-                            
-                        </tr>       
-                                <a href="single.html" class="more-link card-link mt-auto">
-                                    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
-                                </a>
+                             
+
+
+<!--********* 상호명 **********************************-->
+    
+        <div class="card-body h-100 d-flex align-items-start flex-column">
+            <h3 class="post-title card-title"><a href="single.html">상호명</a></h3>
+        </div>   
+        
+
+ <!--********* 별점 ************************************-->       
+        <div class="review">
+      
+      
+            <div class="rating" data-rate="3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>	
+            </div>
+            </div>   
+ 
+        
+<!--********* 주소 **********************************-->                          
+         <div>
+        <tr>
+        <td>주소</td>
+        </tr>
+        </div> 
+        
+<!--********* 전화번호 **********************************-->
+        <div>
+        <tr>
+        <td>전화번호</td>
+        </tr>
+        </div> 
+ <!--**********상세보기**********************************-->   
+ <a href="single.html" class="more-link card-link mt-auto">
+    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
+</a>   
+
                             </div>
                         </div>
                     </div>
                 </div>
-            
+
+
+
+
+<!-- *********** 2번째 칸 *****************************************-->
                 <div id="post-2" class="post type-post search post-2 card post-card">
                     <div class="row">
                         <div class="col-md-4">
@@ -240,51 +283,110 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body h-100 d-flex align-items-start flex-column">
-                                <tr class="post-title card-title"><a href="single.html">상호명</a></tr>
-                              
-                                <a href="single.html" class="more-link card-link mt-auto">
-                                    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
-                                </a>
+                             
+
+
+<!--********* 상호명 **********************************-->
+    
+        <div class="card-body h-100 d-flex align-items-start flex-column">
+            <h3 class="post-title card-title"><a href="single.html">상호명</a></h3>
+        </div>   
+        
+
+ <!--********* 별점 ************************************-->       
+        <div class="review">
+      
+      
+            <div class="rating" data-rate="3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>	
+            </div>
+            </div>   
+ 
+        
+<!--********* 주소 **********************************-->                          
+         <div>
+        <tr>
+        <td>주소</td>
+        </tr>
+        </div> 
+        
+<!--********* 전화번호 **********************************-->
+        <div>
+        <tr>
+        <td>전화번호</td>
+        </tr>
+        </div> 
+ <!--**********상세보기**********************************-->   
+ <a href="single.html" class="more-link card-link mt-auto">
+    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
+</a>   
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="post-3" class="type-post_type search post-3 card post-card">
+
+
+ <!--************3번째 칸 **********************************-->
+
+                <div id="post-3" class="post type-post search post-3 card post-card">
                     <div class="row">
                         <div class="col-md-4">
                             <img class="card-img img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body h-100 d-flex align-items-start flex-column">
-                                <tr class="post-title card-title"><a href="single.html">상호명</a></tr>
-                                
-                                <a href="single.html" class="more-link card-link mt-auto">
-                                    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="post-4" class="type-post_type search post-4 card post-card">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body h-100 d-flex align-items-start flex-column">
-                                <tr class="post-title card-title"><a href="single.html">상호명</a></tr>
-                                
-                                <a href="single.html" class="more-link card-link mt-auto">
-                                    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
-                                </a>
+                             
+
+
+<!--********* 상호명 **********************************-->
+    
+        <div class="card-body h-100 d-flex align-items-start flex-column">
+            <h3 class="post-title card-title"><a href="single.html">상호명</a></h3>
+        </div>   
+        
+
+ <!--********* 별점 ************************************-->       
+        <div class="review">
+      
+      
+            <div class="rating" data-rate="3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>	
+            </div>
+            </div>   
+ 
+        
+<!--********* 주소 **********************************-->                          
+         <div>
+        <tr>
+        <td>주소</td>
+        </tr>
+        </div> 
+        
+<!--********* 전화번호 **********************************-->
+        <div>
+        <tr>
+        <td>전화번호</td>
+        </tr>
+        </div> 
+ <!--**********상세보기**********************************-->   
+ <a href="single.html" class="more-link card-link mt-auto">
+    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
+</a>   
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!--*********정보기관 리스트 출력하기 끝**************************************-->
-
-                <!--**********페이징 화면 시작*****************************************************-->
                 <nav class="navigation pagination justify-content-between text-uppercase" role="navigation">
                     <a class="prev disabled" href="#">
                         Prev
@@ -301,12 +403,15 @@
                         Next
                     </a>
                 </nav>
-                <!--**********페이징 화면 시작 끝*****************************************************-->
             </div>
         </div>
     </div>
 </main>
+    
 
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services,clusterer,drawing"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=LIBRARY"></script>
 <script type="text/javascript" src="/js/jquery.min.js?ver=3.6.0"></script>
 <script type="text/javascript" src="/js/popper.min.js?ver=1.16.1"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js?ver=4.6.0"></script>
@@ -316,7 +421,19 @@
 <script type="text/javascript" src="/js/scrollmagic.min.js?ver=2.0.8"></script>
 <script type="text/javascript" src="/js/magnific-popup.min.js?ver=1.1.0"></script>
 <script type="text/javascript" src="/js/custom-theme.js?ver=1.0.0"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5a0a025e110dde0902210e297400a7be"></script>
+<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+
 <script type="text/javascript">
+
     //eq(0) = ì»¤ë®¤ëí°
 	$(document).ready(function(){
         $(".bigCate li.comu").click(function(){
@@ -349,6 +466,36 @@
 
 	});
 </script>
+
+
+<body class="home page page-template-template-lana-editor">
+
+<footer class="footer bg-dark text-white">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <ul class="nav"><img href="#" src="/img/WithYouTitle.png" class="footerLogo" >
+            </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item footerFont"><p class="nav-link">주소 : 서울특별시 금천구 가산디지털2로 123 2차) 월드 메르디앙</p></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item footerFont"><p class="nav-link">고객센터: 02-2005-8523</p></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item footerFont"><p class="nav-link">이메일: swkosmo@daum.net</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
