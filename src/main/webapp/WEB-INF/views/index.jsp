@@ -12,6 +12,7 @@
 <a href='include/Header'>상단페이지</a>
 <a href='include/login'>로그인페이지</a>
 <a href='include/Main'>메인페이지</a>
+<a href='include/getDog'>test</a>
 
 
 </body>
