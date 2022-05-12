@@ -31,7 +31,7 @@ public class MainController {
 	@RequestMapping("/getDog")
 	public void getDog(Model m) {
 		m.addAttribute("getDog", dao.getDog(new DogKindVO()));
-		//m.addAttribute("getDog", jpa.findById("골든 리트리버 (GOLDEN RETRIEVER)").get());
+		m.addAttribute("getDogInfo", jpa.findById("골든 리트리버 (GOLDEN RETRIEVER)").get());
 	}
 	
 	
