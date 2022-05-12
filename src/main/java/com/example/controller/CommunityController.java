@@ -13,7 +13,6 @@ public class HomeController {
 	@RequestMapping("/daily")
 	public void HeaderPage() {
 	}
-	
 	}
 	
 }
