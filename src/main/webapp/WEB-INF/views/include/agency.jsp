@@ -32,7 +32,44 @@
           media="print">
 
     <link rel="stylesheet" href="/css/HeadFootPage.css" type="text/css">
+    
+    <style type="text/css">
+    .star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  justify-content: space-around;
+  padding: 0 0.2em;
+  text-align: center;
+  width: 5em;
+}
+ 
+.star-rating input {
+  display: none;
+}
+ 
+.star-rating label {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2.3px;
+  -webkit-text-stroke-color: #2b2a29;
+  cursor: pointer;
+}
+ 
+.star-rating :checked ~ label {
+  -webkit-text-fill-color: gold;
+}
+ 
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  -webkit-text-fill-color: #fff58c;
+}
+    
+    
+    
+    </style>
 </head>
+
 
 
 
@@ -217,176 +254,254 @@
         <div class="col-12">
             <div class="search-posts">
 
-<!-- *********** 1번째 칸 *****************************************-->                
-                <div id="post-1" class="post type-post search post-1 card post-card">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body h-100 d-flex align-items-start flex-column">
-                             
+					<!-- *********** 1번째 칸 *****************************************-->
+					<div id="post-1"
+						class="post type-post search post-1 card post-card">
+						<div class="row">
+							<div class="col-md-4">
 
+								<img class="card-img img-fluid"
+									src="../pictures/placeholder/530x400.svg" alt="Post">
 
-<!--********* 상호명 **********************************-->
-    
-        <div class="card-body h-100 d-flex align-items-start flex-column">
-            <h3 class="post-title card-title"><a href="single.html">상호명</a></h3>
-        </div>   
-        
+                                 <!--********* 상호명 **********************************-->
 
- <!--********* 별점 ************************************-->       
-        <div class="review">
-      
-      
-            <div class="rating" data-rate="3">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>	
-            </div>
-            </div>   
- 
-        
-<!--********* 주소 **********************************-->                          
-         <div>
-        <tr>
-        <td>주소</td>
-        </tr>
-        </div> 
-        
-<!--********* 전화번호 **********************************-->
-        <div>
-        <tr>
-        <td>전화번호</td>
-        </tr>
-        </div> 
- <!--**********상세보기**********************************-->   
- <a href="single.html" class="more-link card-link mt-auto">
-    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
-</a>   
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+								<div
+									class="card-body h-100 d-flex align-items-start flex-column">
+									<h3 class="post-title card-title">
+										<a href="single.html">상호명</a>
+									</h3>
 
 
 
+									<!--********* 별점 ************************************-->
+		<div class="star-rating space-x-4 mx-auto">
+	<input type="radio" id="5-stars" name="rating" value="5" v-model="ratings"/>
+	<label for="5-stars" class="star pr-4">★</label>
+	<input type="radio" id="4-stars" name="rating" value="4" v-model="ratings"/>
+	<label for="4-stars" class="star">★</label>
+	<input type="radio" id="3-stars" name="rating" value="3" v-model="ratings"/>
+	<label for="3-stars" class="star">★</label>
+	<input type="radio" id="2-stars" name="rating" value="2" v-model="ratings"/>
+	<label for="2-stars" class="star">★</label>
+	<input type="radio" id="1-star" name="rating" value="1" v-model="ratings" />
+	<label for="1-star" class="star">★</label>
+</div>
 
-<!-- *********** 2번째 칸 *****************************************-->
-                <div id="post-2" class="post type-post search post-2 card post-card">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body h-100 d-flex align-items-start flex-column">
-                             
+									<!--********* 주소 **********************************-->
+									<div>
+										<tr>
+											<td>주소</td>
+										</tr>
+									</div>
 
+									<!--********* 전화번호 **********************************-->
+									<div>
+										<tr>
+											<td>전화번호</td>
+										</tr>
+									</div>
+									<!--**********상세보기**********************************-->
+									<div>
+										<a href="single.html" class="more-link card-link mt-auto">
+											상세보기 <i class="lana-icon-arrow-right text-primary"></i>
+										</a>
+									</div>
+								</div>
 
-<!--********* 상호명 **********************************-->
-    
-        <div class="card-body h-100 d-flex align-items-start flex-column">
-            <h3 class="post-title card-title"><a href="single.html">상호명</a></h3>
-        </div>   
-        
+							</div>
+							<!--*********** 카카오 맵 API 시작 테이블****************************************************  -->
 
- <!--********* 별점 ************************************-->       
-        <div class="review">
-      
-      
-            <div class="rating" data-rate="3">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>	
-            </div>
-            </div>   
- 
-        
-<!--********* 주소 **********************************-->                          
-         <div>
-        <tr>
-        <td>주소</td>
-        </tr>
-        </div> 
-        
-<!--********* 전화번호 **********************************-->
-        <div>
-        <tr>
-        <td>전화번호</td>
-        </tr>
-        </div> 
- <!--**********상세보기**********************************-->   
- <a href="single.html" class="more-link card-link mt-auto">
-    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
-</a>   
+							<div id="map" style="width: 400px; height: 400px;"></div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+							<!--*********** 카카오 맵 API 끝 테이블 ****************************************************  -->
+
+						</div>
 
 
- <!--************3번째 칸 **********************************-->
-
-                <div id="post-3" class="post type-post search post-3 card post-card">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img img-fluid" src="../pictures/placeholder/530x400.svg" alt="Post">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body h-100 d-flex align-items-start flex-column">
-                             
 
 
-<!--********* 상호명 **********************************-->
-    
-        <div class="card-body h-100 d-flex align-items-start flex-column">
-            <h3 class="post-title card-title"><a href="single.html">상호명</a></h3>
-        </div>   
-        
+						<div class="col-md-8">
+							<div class="card-body h-100 d-flex align-items-start flex-column">
+							</div>
+						</div>
 
- <!--********* 별점 ************************************-->       
-        <div class="review">
-      
-      
-            <div class="rating" data-rate="3">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>	
-            </div>
-            </div>   
- 
-        
-<!--********* 주소 **********************************-->                          
-         <div>
-        <tr>
-        <td>주소</td>
-        </tr>
-        </div> 
-        
-<!--********* 전화번호 **********************************-->
-        <div>
-        <tr>
-        <td>전화번호</td>
-        </tr>
-        </div> 
- <!--**********상세보기**********************************-->   
- <a href="single.html" class="more-link card-link mt-auto">
-    상세보기 <i class="lana-icon-arrow-right text-primary"></i>
-</a>   
+					</div>
+					<!--*********** 카카오 맵 API 시작 테이블****************************************************  -->
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+					<div id="map" style="width: 100px; height: 100px;"></div>
 
+					<!--*********** 카카오 맵 API 끝 테이블 ****************************************************  -->
+
+
+
+					<!--************************  1번째 테이블 끝  *********************************************************-->
+
+
+					
+					<!-- *********** 2번째 칸 *****************************************-->
+					<div id="post-2"
+						class="post type-post search post-2 card post-card">
+						<div class="row">
+							<div class="col-md-4">
+
+								<img class="card-img img-fluid"
+									src="../pictures/placeholder/530x400.svg" alt="Post">
+
+                                 <!--********* 상호명 **********************************-->
+
+								<div
+									class="card-body h-100 d-flex align-items-start flex-column">
+									<h3 class="post-title card-title">
+										<a href="single.html">상호명</a>
+									</h3>
+
+
+
+									<!--********* 별점 ************************************-->
+									<div class="review">
+									<div class="rating" data-rate="3">
+											<i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+												class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+												class="fas fa-star"></i>
+										</div>
+									</div>
+
+
+									<!--********* 주소 **********************************-->
+									<div>
+										<tr>
+											<td>주소</td>
+										</tr>
+									</div>
+
+									<!--********* 전화번호 **********************************-->
+									<div>
+										<tr>
+											<td>전화번호</td>
+										</tr>
+									</div>
+									<!--**********상세보기**********************************-->
+									<div>
+										<a href="single.html" class="more-link card-link mt-auto">
+											상세보기 <i class="lana-icon-arrow-right text-primary"></i>
+										</a>
+									</div>
+								</div>
+
+							</div>
+							<!--*********** 카카오 맵 API 시작 테이블****************************************************  -->
+
+							<div id="map" style="width: 400px; height: 400px;"></div>
+
+							<!--*********** 카카오 맵 API 끝 테이블 ****************************************************  -->
+
+						</div>
+
+
+
+
+						<div class="col-md-8">
+							<div class="card-body h-100 d-flex align-items-start flex-column">
+							</div>
+						</div>
+
+					</div>
+					<!--*********** 카카오 맵 API 시작 테이블****************************************************  -->
+
+					<div id="map" style="width: 100px; height: 100px;"></div>
+
+					<!--*********** 카카오 맵 API 끝 테이블 ****************************************************  -->
+
+
+
+					<!--************************  2번째 테이블 끝  *********************************************************-->
+
+
+
+               <!-- *********** 3번째 칸 *****************************************-->
+					<div id="post-3"
+						class="post type-post search post-3 card post-card">
+						<div class="row">
+							<div class="col-md-4">
+
+								<img class="card-img img-fluid"
+									src="../pictures/placeholder/530x400.svg" alt="Post">
+
+                                 <!--********* 상호명 **********************************-->
+
+								<div
+									class="card-body h-100 d-flex align-items-start flex-column">
+									<h3 class="post-title card-title">
+										<a href="single.html">상호명</a>
+									</h3>
+
+
+
+									<!--********* 별점 ************************************-->
+									<div class="review">
+									<div class="rating" data-rate="3">
+											<i class="fas fa-star"></i> 
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i> 
+											<i class="fas fa-star"></i> 
+											<i class="fas fa-star"></i>
+												
+										</div>
+									</div>
+
+
+									<!--********* 주소 **********************************-->
+									<div>
+										<tr>
+											<td>주소</td>
+										</tr>
+									</div>
+
+									<!--********* 전화번호 **********************************-->
+									<div>
+										<tr>
+											<td>전화번호</td>
+										</tr>
+									</div>
+									<!--**********상세보기**********************************-->
+									<div>
+										<a href="include/single.htmll" class="more-link card-link mt-auto">
+											상세보기 <i class="lana-icon-arrow-right text-primary"></i>
+										</a>
+									</div>
+								</div>
+
+							</div>
+							<!--*********** 카카오 맵 API 시작 테이블****************************************************  -->
+
+							<div id="map" style="width: 400px; height: 400px;"></div>
+
+							<!--*********** 카카오 맵 API 끝 테이블 ****************************************************  -->
+
+						</div>
+
+
+
+
+						<div class="col-md-8">
+							<div class="card-body h-100 d-flex align-items-start flex-column">
+							</div>
+						</div>
+
+					</div>
+					<!--*********** 카카오 맵 API 시작 테이블****************************************************  -->
+
+					<div id="map" style="width: 100px; height: 100px;"></div>
+
+					<!--*********** 카카오 맵 API 끝 테이블 ****************************************************  -->
+
+
+
+					<!--************************  3번째 테이블 끝  *********************************************************-->
+                
+                
+                 <!-- ****페이지 테이블 ******************************************  -->
+                 
                 <nav class="navigation pagination justify-content-between text-uppercase" role="navigation">
                     <a class="prev disabled" href="#">
                         Prev
@@ -422,6 +537,8 @@
 <script type="text/javascript" src="/js/magnific-popup.min.js?ver=1.1.0"></script>
 <script type="text/javascript" src="/js/custom-theme.js?ver=1.0.0"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5a0a025e110dde0902210e297400a7be"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 		var container = document.getElementById('map');
 		var options = {
@@ -465,6 +582,22 @@
 		});
 
 	});
+    
+	$(function(){
+    	
+	    var rating = $('.review.rating');
+		 
+		 rating.each(function(){
+			 var stars = $(this).attr('data-rate');
+		        console.log(stars);
+			 $$(this).find('svg:nth-child(-n+3)').css({color:'#F05522'});
+		 });
+
+	    });
+
+	 
+       
+    
 </script>
 
 
