@@ -22,7 +22,7 @@
 <a href='include/community/dailyDetail'>일상공유상세페이지</a><br/><br/>
 <a href='include/agency'>정보기관페이지</a><br/><br/>
 <a href='include/agencyDetail'>정보기관상세페이지</a><br/><br/>
-
+<a href="include/signUp">회원가입</a><br/><br/>
 
 
 </body>
