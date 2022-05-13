@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<script src="https://kit.fontawesome.com/23b331c6f8.js" crossorigin="anonymous"></script>                                                                                  
+
+<script src="https://kit.fontawesome.com/23b331c6f8.js" crossorigin="anonymous"></script>                                                                              
 
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -19,7 +20,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="/admin/indexAdmin" class="nav-link active">
+            <a href="/admin/indexAdmin" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard              
@@ -82,25 +83,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
+                <a href="/admin/adminRpReview" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>리뷰</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
+                <a href="/admin/adminRpComment" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>댓글</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
+                <a href="/admin/adminRpBoard" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>게시글</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/validation.html" class="nav-link">
+                <a href="/admin/adminBlacklist" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>블랙리스트</p>
                 </a>
@@ -232,3 +233,4 @@
     </div>
     <!-- /.sidebar -->
   </aside>
+  
