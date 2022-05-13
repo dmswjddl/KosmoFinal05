@@ -54,18 +54,22 @@ function wsEvt() {
 							'<div class="flr">'+
 								'<div class="messages">'+
 									'<p class="msg" id="msg-1">'+
-										'나 :' + d.msg +
+										 d.msg +
 									'</p>'+
 								'</div>'+
 							'</div>'+
-							'<img class="user-img" id="user-0" src="//gravatar.com/avatar/56234674574535734573000000000001?d=retro" />'+ 
+							'<img class="user-img" id="user-0" src="https://kkc.or.kr/upload/search_dog/dog_1362361174_1.jpg" />'+ 
 						'</div>'+
-					'</article>');	
+					'</article>');
+					
+					$('#chating').scrollTop($('#chating').prop('scrollHeight'));
+
+					
 				}else{
 					/* $("#chating").append("<p class='others'>" + d.userName + " :" + d.msg + "</p>"); */
 					$("#chating").append('<article class="msg-container msg-remote" id="msg-0">'+
 							'<div class="msg-box">'+
-							'<img class="user-img" id="user-0" src="//gravatar.com/avatar/002464562345234523523568978962?d=retro" /> '+ 
+							'<img class="user-img" id="user-0" src="https://kkc.or.kr/upload/search_dog/dog_1281929559_1.jpg" /> '+ 
 							'<div class="flr">'+
 								'<div class="messages">'+
 									'<p class="msg" id="msg-0">'+
@@ -76,11 +80,13 @@ function wsEvt() {
 							
 						'</div>'+
 					'</article>');	
+					
+					$('#chating').scrollTop($('#chating').prop('scrollHeight'));
 				}
 					
 			}else if(d.type == "come"){
 				$("#chating").append("<p class='comego'>" + d.msg + "</p>");
-				
+				$('#chating').scrollTop($('#chating').prop('scrollHeight'));
 				
 				
 				$.ajax({
@@ -95,6 +101,7 @@ function wsEvt() {
 				})
 			}else if(d.type == "goout"){
 				$("#chating").append("<p class='comego'>" + d.msg + "</p>");	
+				$('#chating').scrollTop($('#chating').prop('scrollHeight'));
 				$.ajax({
 					url:'/api/members',
 		            type:'get',
