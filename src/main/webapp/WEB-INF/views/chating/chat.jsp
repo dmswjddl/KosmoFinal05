@@ -105,6 +105,7 @@ function wsEvt() {
 				$.ajax({
 					url:'/api/members',
 		            type:'get',
+		            
 		            data:{roomName:$("#room").text(),id:'-1'},
 		            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
 		            success:function(data){
