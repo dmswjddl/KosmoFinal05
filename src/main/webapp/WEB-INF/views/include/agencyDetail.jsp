@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>너와 함개</title>
+    
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,13 +33,21 @@
 
     <link rel="stylesheet" href="/css/HeadFootPage.css" type="text/css">
 </head>
+
+
+
+
 <body class="home page page-template-template-lana-editor">
+
+
+
 <header class="header headColor lana-full-bg-image-golden-large-sitting-dog-body-indoor d-flex flex-column"
         id="slider-header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="lana-pet-main-navbar">
         <a class="navbar-brand" href="#">
             <img class="navbar-logo mainLogo mx-auto" src="/img/WithYouLogo.png" alt="Navbar Logo">
         </a>
+     
         <div><img src="/img/WithYouTitle.png" class="mainTitle mx-auto"/></div>
         <div class="toggler-buttons d-flex flex-fill justify-content-end">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lana-navbar"
@@ -181,7 +190,8 @@
                     </nav>
                 </div>
                 
-   
+                
+
 <main class="main">
     <div id="post-1" class="post type-post post-1 has-post-thumbnail comment-open">
         <div class="container post-container bg-white">
@@ -197,6 +207,9 @@
         <div>
             <p>
                 정보입력
+            </p>
+            <p>
+            주소
             </p>
         </div>
 
@@ -293,7 +306,11 @@
         </div>
     </div>
 </main>
+    
 
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services,clusterer,drawing"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=LIBRARY"></script>
 <script type="text/javascript" src="/js/jquery.min.js?ver=3.6.0"></script>
 <script type="text/javascript" src="/js/popper.min.js?ver=1.16.1"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js?ver=4.6.0"></script>
@@ -303,7 +320,19 @@
 <script type="text/javascript" src="/js/scrollmagic.min.js?ver=2.0.8"></script>
 <script type="text/javascript" src="/js/magnific-popup.min.js?ver=1.1.0"></script>
 <script type="text/javascript" src="/js/custom-theme.js?ver=1.0.0"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5a0a025e110dde0902210e297400a7be"></script>
+<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+
 <script type="text/javascript">
+
     //eq(0) = ì»¤ë®¤ëí°
 	$(document).ready(function(){
         $(".bigCate li.comu").click(function(){
@@ -336,6 +365,36 @@
 
 	});
 </script>
+
+
+<body class="home page page-template-template-lana-editor">
+
+<footer class="footer bg-dark text-white">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <ul class="nav"><img href="#" src="/img/WithYouTitle.png" class="footerLogo" >
+            </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item footerFont"><p class="nav-link">주소 : 서울특별시 금천구 가산디지털2로 123 2차) 월드 메르디앙</p></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item footerFont"><p class="nav-link">고객센터: 02-2005-8523</p></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item footerFont"><p class="nav-link">이메일: swkosmo@daum.net</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
