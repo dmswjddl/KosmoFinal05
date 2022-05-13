@@ -41,6 +41,14 @@ public class ChatingController {
 		return mv;
 	}
 	
+	@RequestMapping("/chat2")
+	public ModelAndView chat2(Room room) {
+		ModelAndView mv = new ModelAndView();
+		
+		
+		return mv;
+	}
+	
 	/**
 	 * 방 페이지
 	 * @return
