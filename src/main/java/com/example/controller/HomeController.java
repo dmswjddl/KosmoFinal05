@@ -23,5 +23,9 @@ public class HomeController {
 	public void MainPage() {
 	}
 	
+	@RequestMapping("/signUp")
+	public void signUpPage() {
+	}
+	
 	
 }
