@@ -302,7 +302,7 @@
 									</div>
 									<!--**********상세보기**********************************-->
 									<div>
-										<a href="single.html" class="more-link card-link mt-auto">
+										<a href="agencyDetail" class="more-link card-link mt-auto">
 											상세보기 <i class="lana-icon-arrow-right text-primary"></i>
 										</a>
 									</div>
