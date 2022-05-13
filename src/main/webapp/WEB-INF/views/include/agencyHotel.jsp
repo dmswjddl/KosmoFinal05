@@ -33,46 +33,7 @@
 
     <link rel="stylesheet" href="/css/HeadFootPage.css" type="text/css">
     
-    <style type="text/css">
-    .star-rating {
-  display: flex;
-  flex-direction: row-reverse;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  justify-content: space-around;
-  padding: 0 0.2em;
-  text-align: center;
-  width: 5em;
-}
- 
-.star-rating input {
-  display: none;
-}
- 
-.star-rating label {
-  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2.3px;
-  -webkit-text-stroke-color: #2b2a29;
-  cursor: pointer;
-}
- 
-.star-rating :checked ~ label {
-  -webkit-text-fill-color: gold;
-}
- 
-.star-rating label:hover,
-.star-rating label:hover ~ label {
-  -webkit-text-fill-color: #fff58c;
-}
-    
-    
-    
-    </style>
-    
-    
-</head>
-
-
+  </head>
 
 
 <body class="home page page-template-template-lana-editor">
@@ -227,161 +188,207 @@
                         </div>
                     </nav>
                 </div>
-                
-                
-
-<main class="main">
-    <div id="post-1" class="post type-post post-1 has-post-thumbnail comment-open">
-        <div class="container post-container bg-white">
-            <div class="row justify-content-center post-row no-gutters">
-                <div class="col-12 col-sm-11 col-md-10 post-thumbnail-col">
-                    <img class="img-fluid post-thumbnail" src="../pictures/placeholder/1110x520.svg" alt="Post">
-                </div>
-                <div class="col-12 col-sm-11 col-md-10 col-lg-8 post-col">
-                    
-    <!--*********** 정보기관 리스트 상세보기  ******************************** -->
-    <!-- ***********상세보기 사진 출력 시작***********************************************-->
-
-        <div>
-            <p>
-                정보입력
-            </p>
-            <p>
-            주소
-            </p>
-        </div>
-
-                   <div class="post-pages">
-                        <nav class="navigation pagination post-pages-pagination justify-content-between text-uppercase">
-                            
-                            <a class="prev disabled" href="#">
-                                Prev
-                            </a>
-                            <div class="nav-links">
-                                <ul class="page-numbers">
-                                    <li><span class="post-page-numbers current">1</span></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                </ul>
-                            </div>
-                            <a class="next" href="#">
-                                Next
-                            </a>
-                        </nav>
-                    </div>
+  
+  <main class="main">
+    <div id="post-1" class="page type-page post-1">
+        <div id="managers-container" class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-6 text-center">
+                    <h1 class="mb-4 font-weight-bold" data-scroll-animate="fadeInDown">애견호텔</h1>
+                    <p data-scroll-animate="fadeInUp">
+                        설명 ~
+                    </p>
+                    <div class="lana-hr lana-hr-4 border-primary mt-4"></div>
                 </div>
             </div>
-        </div>
-     <!--**********상세보기 사진 출력 끝 **************************************************-->
+            <div class="row mt-5">
 
 
-     <!--******* 방문자 리뷰 작성 *********************************************************-->  
-       
-     <div class="container comments-container bg-white">
-            <div class="row justify-content-center comments-row no-gutters">
-                <div class="col-12 col-sm-11 col-md-10 col-lg-8">
-                    <h4 class="comments-title font-weight-bold">
-                        방문자 리뷰 <span class="comments-number"></span>
-                    </h4>
-
-    
-     <!-- *********리뷰 작성 1번째 테이블 시작 *******************************************************-->
-                    <ul class="comment-list list-unstyled">
-                        <li class="media">
-                            <img class="avatar photo rounded-circle mr-2 mr-sm-3 mr-md-4"
-                                 src="../pictures/placeholder/65x65.svg" alt="Avatar">
-                          <div>
-                              <p>
-                                  리뷰 작성
-                              </p>
-                              
-     <!-- ******** 리뷰 별점 시작 *********************************************-->                         
-                              <div class="star-rating space-x-4 mx-auto">
-	<input type="radio" id="5-stars" name="rating" value="5" v-model="ratings"/>
-	<label for="5-stars" class="star pr-4">★</label>
-	<input type="radio" id="4-stars" name="rating" value="4" v-model="ratings"/>
-	<label for="4-stars" class="star">★</label>
-	<input type="radio" id="3-stars" name="rating" value="3" v-model="ratings"/>
-	<label for="3-stars" class="star">★</label>
-	<input type="radio" id="2-stars" name="rating" value="2" v-model="ratings"/>
-	<label for="2-stars" class="star">★</label>
-	<input type="radio" id="1-star" name="rating" value="1" v-model="ratings" />
-	<label for="1-star" class="star">★</label>
-</div>
-
-    <!-- ******** 리뷰 별점 끝 *********************************************-->     
-                              
-                          </div>
-
- <!-- 리뷰 1번째 테이블 끝 **************************************************** -->
-
-   
- <!-- ************* 리뷰 2번째 테이블 시작 *************************************** -->
-                        </li>
-                        <li class="media">
-                            <img class="avatar photo rounded-circle mr-2 mr-sm-3 mr-md-4"
-                                 src="../pictures/placeholder/65x65.svg" alt="Avatar">
-                          <div>
-                              <p>
-                                  리뷰 작성
-                              </p>
-                              
-     <!-- ******** 리뷰 별점 시작 *********************************************-->                         
-                              <div class="star-rating space-x-4 mx-auto">
-	<input type="radio" id="5-stars" name="rating" value="5" v-model="ratings"/>
-	<label for="5-stars" class="star pr-4">★</label>
-	<input type="radio" id="4-stars" name="rating" value="4" v-model="ratings"/>
-	<label for="4-stars" class="star">★</label>
-	<input type="radio" id="3-stars" name="rating" value="3" v-model="ratings"/>
-	<label for="3-stars" class="star">★</label>
-	<input type="radio" id="2-stars" name="rating" value="2" v-model="ratings"/>
-	<label for="2-stars" class="star">★</label>
-	<input type="radio" id="1-star" name="rating" value="1" v-model="ratings" />
-	<label for="1-star" class="star">★</label>
-</div>
-
-    <!-- ******** 리뷰 별점 끝 *********************************************-->     
-                              
-                          </div>
-                        
-   <!--  *********** 리뷰 2번째 테이블 끝 ********************************** -->                     
-                        <li class="media">
-                            <img class="avatar photo rounded-circle mr-2 mr-sm-3 mr-md-4"
-                                 src="../pictures/placeholder/65x65.svg" alt="Avatar">
-                           
-                        </li>
-                    </ul>
+      <!-- **********첫번쨰 칸*************************************************-->   
       
       
-      
-       <!--**************리뷰 작성 테이블 끝*********************************************-->
-                    
-       
-                <hr/>
-                    <nav class="navigation pagination comment-pagination justify-content-between text-uppercase"
-                         role="navigation">
-                        <a class="prev disabled" href="#">
-                            Prev
-                        </a>
-                        <div class="nav-links">
-                            <ul class="page-numbers">
-                                <li><span aria-current="page" class="page-numbers current">1</span></li>
-                                <li><a class="page-numbers" href="#">2</a></li>
-                                <li><a class="page-numbers" href="#">3</a></li>
+      <!-- *********** 1번째 ****************************************************-->
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="lana_member type-lana_member card member-card bg-transparent">
+                        <div class="card-body">
+                            <img src="../pictures/placeholder/250x250.svg"
+                                 class="card-img-top img-fluid rounded-circle" alt="Team Member"
+                                 data-scroll-animate="zoomIn">
+                            <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
+                                호텔이름 
+                            </h5>
+                            <h6 class="card-subtitle" data-scroll-animate="fadeInUp">
+                                지역
+                            </h6>
+                            <p class="post-text card-text" data-scroll-animate="fadeIn">
+                               내용들 
+                            </p>
+                          
+                        </div>
+                    </div>
+                </div>
+
+         <!-- ************* 2번째 ****************************************************-->       
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="lana_member type-lana_member card member-card bg-transparent">
+                        <div class="card-body">
+                            <img src="../pictures/placeholder/250x250.svg"
+                                 class="card-img-top img-fluid rounded-circle" alt="Team Member"
+                                 data-scroll-animate="zoomIn">
+                            <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
+                                이름
+                            </h5>
+                            <h6 class="card-subtitle" data-scroll-animate="fadeInUp">
+                                지역
+                            </h6>
+                            <p class="post-text card-text" data-scroll-animate="fadeIn">
+                               내용들
+                            </p>
+                          
+                        </div>
+                    </div>
+                </div>
+
+
+         <!-- ************ 3번째 *******************************************************-->       
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="lana_member type-lana_member card member-card bg-transparent">
+                        <div class="card-body">
+                            <img src="../pictures/placeholder/250x250.svg"
+                                 class="card-img-top img-fluid rounded-circle" alt="Team Member"
+                                 data-scroll-animate="zoomIn">
+                            <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
+                                이름
+                            </h5>
+                            <h6 class="card-subtitle" data-scroll-animate="fadeInUp">
+                                지역
+                            </h6>
+                            <p class="post-text card-text" data-scroll-animate="fadeIn">
+                             내용들
+                            </p>
+                            <ul class="social-icons list-inline" data-scroll-animate="fadeInUp">
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                </li>
                             </ul>
                         </div>
-                        <a class="next" href="#">
-                            Next
-                        </a>
-                    </nav>
+                    </div>
+                </div>
 
-                    
+       
+     <!-- ******** 첫번째 칸 끝 **************************************************************-->           
+
+            </div>
+        </div>
+
+        <div id="employees-container" class="container my-5">
+          
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="lana_member type-lana_member card member-card bg-transparent">
+                        <div class="card-body">
+                            <img src="../pictures/placeholder/250x250.svg"
+                                 class="card-img-top img-fluid rounded-circle" alt="Team Member"
+                                 data-scroll-animate="zoomIn">
+                            <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
+                                Natalia Scrilsen
+                            </h5>
+                            <h6 class="card-subtitle" data-scroll-animate="fadeInUp">
+                                Vaterian
+                            </h6>
+                            <p class="post-text card-text" data-scroll-animate="fadeIn">
+                                Quisque sit amet ex id lacus ullamcorper consectetur. Phasellus cursus arcu quam, vel
+                                porttitor magna efficitur ac.
+                            </p>
+                            <ul class="social-icons list-inline" data-scroll-animate="fadeInUp">
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="lana_member type-lana_member card member-card bg-transparent">
+                        <div class="card-body">
+                            <img src="../pictures/placeholder/250x250.svg"
+                                 class="card-img-top img-fluid rounded-circle" alt="Team Member"
+                                 data-scroll-animate="zoomIn">
+                            <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
+                                Natalia Scrilsen
+                            </h5>
+                            <h6 class="card-subtitle" data-scroll-animate="fadeInUp">
+                                Vaterian
+                            </h6>
+                            <p class="post-text card-text" data-scroll-animate="fadeIn">
+                                Ut hendrerit nec neque nec porttitor. Ut semper, lacus posuere mollis ultricies, purus
+                                quam fringilla quam, quis imperdiet nisl lacus eget libero.
+                            </p>
+                            <ul class="social-icons list-inline" data-scroll-animate="fadeInUp">
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="lana_member type-lana_member card member-card bg-transparent">
+                        <div class="card-body">
+                            <img src="../pictures/placeholder/250x250.svg"
+                                 class="card-img-top img-fluid rounded-circle" alt="Team Member"
+                                 data-scroll-animate="zoomIn">
+                            <h5 class="post-title card-title" data-scroll-animate="fadeInDown">
+                                Natalia Scrilsen
+                            </h5>
+                            <h6 class="card-subtitle" data-scroll-animate="fadeInUp">
+                                Vaterian
+                            </h6>
+                            <p class="post-text card-text" data-scroll-animate="fadeIn">
+                                Mauris lacinia gravida ex, eget porta massa pellentesque non. Vivamus id libero
+                                imperdiet, imperdiet enim id, pretium sem.
+                            </p>
+                            <ul class="social-icons list-inline" data-scroll-animate="fadeInUp">
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </main>
-    
+             
+                
+                
+
+
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services,clusterer,drawing"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services"></script>

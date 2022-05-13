@@ -17,6 +17,11 @@ public class AgencyController {
 		
 	}
 	
+	@RequestMapping("/agencyHotel")
+	public void agencyHotel() {
+		
+	}
+	
 	
 
 }
