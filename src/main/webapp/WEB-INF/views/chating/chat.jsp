@@ -39,7 +39,7 @@ function wsEvt() {
 		if(msg != null && msg.type != ''){
 			//파일 업로드가 아닌 경우 메시지를 뿌려준다.
 			var d = JSON.parse(msg);
-			console.log(d)
+			
 			if(d.type == "getId"){
 				sendCome()
 				var si = d.sessionId != null ? d.sessionId : "";
@@ -177,6 +177,7 @@ function send() {
 		msg : $("#chatting").val()
 	}
 	ws.send(JSON.stringify(option))
+	
 	$('#chatting').val("");
 }
 
