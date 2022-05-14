@@ -33,6 +33,13 @@
 
     <link rel="stylesheet" href="/css/HeadFootPage.css" type="text/css">
     
+    
+    <style type="text/css">
+    
+    .container-fluid {width: 300px; height: 500px; background: #ccc;}
+    </style>
+    
+    
   </head>
 
 
@@ -208,7 +215,10 @@
       
       
       <!-- *********** 1번째 ****************************************************-->
+            
+            
                 <div class="col-12 col-md-4 col-lg-4">
+                
                     <div class="lana_member type-lana_member card member-card bg-transparent">
                         <div class="card-body">
                             <img src="../pictures/placeholder/250x250.svg"
@@ -227,7 +237,7 @@
                         </div>
                     </div>
                 </div>
-
+             
          <!-- ************* 2번째 ****************************************************-->       
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="lana_member type-lana_member card member-card bg-transparent">
@@ -281,13 +291,12 @@
                     </div>
                 </div>
 
-       
+       </div>
+        </div>
      <!-- ******** 첫번째 칸 끝 **************************************************************-->           
 
-            </div>
-        </div>
-
-        <div id="employees-container" class="container my-5">
+            
+   <div id="employees-container" class="container my-5">
           
             <div class="row mt-5">
                 <div class="col-12 col-md-4 col-lg-4">
